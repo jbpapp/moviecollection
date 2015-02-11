@@ -1,0 +1,28 @@
+{
+  "name": "smartbit/moviecollection",
+  "description": "Simple movie collection test app.",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Janos Papp",
+      "email": "janos.papp@nettrend.hu"
+    }
+  ],
+  "require": {
+    "illuminate/support": "5.0.x-dev",
+    "illuminate/validation": "5.0.x-dev",
+    "nesbot/carbon": "~1.14"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smartbit\\": "src"
+    },
+    "files": [
+      "vendor/illuminate/support/helpers.php"
+    ]
+  }
+}
